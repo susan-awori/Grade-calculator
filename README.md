@@ -1,0 +1,2 @@
+# Grade calculator
+In this Grade calculator, I will create a program that calculates the grades of students using Numpy arrays. The program will ask the user to enter the number of students, the number of subjects, and the marks of each student in each subject. It will then calculate the total marks, percentage, and grade for each student using Numpy arrays. The program will display the result for each student in a tabular format.
