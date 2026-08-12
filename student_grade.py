@@ -13,3 +13,6 @@ def calculate_grades():
     except ValueError:
         print("Invalid input. Please enter integer values.")
         return
+
+    marks_array = np.zeros((num_students, num_subjects))
+    student_names = []
