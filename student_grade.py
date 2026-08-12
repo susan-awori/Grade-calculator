@@ -36,6 +36,9 @@ def calculate_grades():
                 except ValueError:
                     print("  Invalid input. Please enter a numerical value for marks.")
 
+    # Calculating total marks for each student
+    total_marks = np.sum(marks_array, axis=1)
+
     # Calculating total marks for each student 
     percentages = (total_marks / (num_subjects * 100)) * 100
 
